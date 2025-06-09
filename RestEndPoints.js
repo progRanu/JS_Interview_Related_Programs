@@ -21,3 +21,8 @@ Endpoint: https://openlibrary.org/search.json?q=harry+potter
 Pagination: ?page=1
 Example: https://openlibrary.org/search.json?q=harry+potter&page=1
 
+
+Endpoint: https://picsum.photos/v2/list?page=1&limit=30
+
+Endpoint:https://jsonplaceholder.typicode.com/photos?_start=0&_limit=20
+
