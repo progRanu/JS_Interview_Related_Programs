@@ -14,3 +14,14 @@ console.log(null == "")//false
 console.log(null === null)//true
 console.log(null == undefined)//true
 console.log(null === undefined)//false
+//Array equality checks
+console.log([] == []);//false
+console.log([] == ![]);//true
+console.log([] === []);//false
+console.log([] === ![]);//false
+//Object equality checks
+console.log({} == {});//false
+console.log({} === {});//false
+console.log({} == !{});//false
+console.log({} === !{});//false
+console.log([] == ![]);//true
